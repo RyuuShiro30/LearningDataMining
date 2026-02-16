@@ -8,3 +8,4 @@ dataMahasiswa= {
 
 df = pd.DataFrame(dataMahasiswa)
 print(df)
+df.isnull().sum()
